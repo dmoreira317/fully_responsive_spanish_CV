@@ -1,0 +1,1134 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.clr {
+  clear: both;
+}
+.main-container {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  max-width: 1200px;
+  background: black;
+}
+.head-part {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.logo {
+  width: 300px;
+  height: 147px;
+  background: transparent;
+  float: left;
+}
+.logo img {
+  width: 150px;
+  height: 147px;
+  margin-left: 25%;
+  border-radius: 70%;
+}
+.logo h1,
+.head-phone-email p {
+  font-family: Ubuntu, serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  line-height: 20px;
+  margin-top: 10px;
+}
+.name1 {
+  font-family: Ubuntu, serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.head-phone-email {
+  width: 883px;
+  height: 147px;
+  background: transparent;
+  float: left;
+  margin-left: 17px;
+  margin-top: 30px;
+}
+.navigation {
+  width: 1200px;
+  height: 51px;
+  margin: auto;
+  background: transparent;
+  margin-top: 17px;
+}
+.navigation p {
+  font-family: Ubuntu, serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  line-height: 51px;
+}
+.navbar {
+  width: 100%;
+  font-family: Ubuntu, serif;
+  color: white;
+  border-top: #aaa solid 2px;
+  border-bottom: #aaa solid 2px;
+}
+.navbar-brand {
+  float: left;
+  text-decoration: none;
+  font-family: Ubuntu, serif;
+  font-size: 20px;
+  padding: 0.2em 0.7em;
+  color: white;
+}
+.navbar-nav {
+  margin: 0%;
+}
+.navbar .navbar-nav .nav-item {
+  display: inline;
+  list-style: none;
+}
+.navbar-nav .nav-item a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 0.9em 0.7em;
+  color: white;
+}
+.toggle-collapse {
+  float: right;
+  width: 45px;
+  height: 32px;
+  margin: 0.4em 0.7em;
+  background-color: transparent;
+  color: rgba(232, 232, 232, 0.7);
+  border: 1px solid rgba(232, 232, 232, 0.3);
+  border-radius: 3px;
+  cursor: pointer;
+  display: none;
+}
+.toggle-collapse:hover {
+  color: rgba(232, 232, 232);
+}
+
+.banner-part {
+  width: 1200px;
+  height: 100px;
+  margin: auto;
+  background: transparent;
+  margin-top: 10%;
+}
+.banner-part p {
+  font-family: Ubuntu, serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  line-height: 20px;
+}
+.content-part-with-get-in-touch {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 17px;
+}
+.content-part {
+  width: 811px;
+  height: 350px;
+  float: left;
+  background: transparent;
+}
+.content-part p {
+  font-family: Ubuntu, serif;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  line-height: 20px;
+}
+.content-part h3 {
+  font-family: Ubuntu, serif;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.get-in-touch {
+  width: 372px;
+  height: 350px;
+  background: transparent;
+  float: left;
+  margin-left: 17px;
+}
+.get-in-touch img {
+  height: auto;
+  max-height: 300px;
+  width: 100%;
+  border-radius: 10%;
+}
+.get-in-touch img:hover {
+  position: relative;
+  top: -25px;
+  left: -35px;
+  width: 500px;
+  height: auto;
+  display: block;
+  z-index: 999;
+}
+.get-in-touch p {
+  font-family: Ubuntu, serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  line-height: 15px;
+  margin-bottom: 10%;
+}
+.product-gallery {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 17px;
+}
+.product-gallery-box1 {
+  width: 290px;
+  height: 230px;
+  background: transparent;
+  float: left;
+  margin-left: 1px;
+}
+.product-gallery-box {
+  width: 290px;
+  height: 215px;
+  background: transparent;
+  float: left;
+  margin-right: 13px;
+}
+.product-gallery-box img {
+  height: auto;
+  width: 100%;
+  border-radius: 10%;
+}
+.product-gallery-box img:hover {
+  position: relative;
+  top: -25px;
+  left: -35px;
+  width: 500px;
+  height: auto;
+  display: block;
+  z-index: 999;
+}
+.product-gallery-box1 img {
+  height: auto;
+  width: 100%;
+  border-radius: 10%;
+}
+.product-gallery-box1 img:hover {
+  position: relative;
+  top: -25px;
+  left: -35px;
+  width: 500px;
+  height: auto;
+  display: block;
+  z-index: 999;
+}
+.product-gallery p {
+  font-family: Ubuntu, serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+.product-gallery-box p,
+.product-gallery-box1 p {
+  font-family: Ubuntu, serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  line-height: 311px;
+}
+.testimonials {
+  width: 1200px;
+  height: 331px;
+  margin: auto;
+  background: transparent;
+  margin-top: 17px;
+  margin-bottom: 60px;
+}
+.testimonials p {
+  font-family: Ubuntu, serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  line-height: 20px;
+  margin-bottom: 0px;
+}
+.contact {
+  background: #ebebeb;
+  text-align: center;
+  box-shadow: 0px 0px 20px 5px #aaa;
+  border-radius: 10px;
+  width: 45%;
+  height: 400px;
+  margin: 30px auto 0 auto;
+  padding: 10px 10px;
+}
+.name {
+  background-color: grey;
+  border-bottom: 5px solid;
+  font-family: Ubuntu, serif;
+  color: white;
+  width: 300px;
+}
+::-webkit-input-placeholder {
+  color: white;
+  font-size: 15px;
+}
+.name:hover {
+  background-color: lightgray;
+  border-bottom: 5px solid darkred;
+}
+.email {
+  background-color: gray;
+  /* border-bottom: 5px solid #502789; */
+  font-family: Ubuntu, serif;
+  width: 300px;
+}
+.email:hover {
+  background-color: lightgray;
+  border-bottom: 5px solid darkred;
+  /* height:30px;
+    width:380px; */
+}
+.message {
+  background-color: grey;
+  font-family: Ubuntu, serif;
+  border-bottom: 5px solid;
+  overflow: hidden;
+  height: 100px;
+  width: 300px;
+  resize: none;
+}
+.message:hover {
+  background-color: lightgrey;
+  border-bottom: 5px solid darkred;
+  height: 100px;
+}
+.submit {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: black;
+  border: none;
+  border-bottom: 5px solid gray;
+  color: white;
+  font-family: Ubuntu, serif;
+}
+.submit:hover {
+  border-bottom: 5px solid gray;
+  box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+  border-bottom: 5px solid darkred;
+}
+.entry {
+  display: block;
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.5s ease 0s;
+  box-shadow: 0px 0px 25px 2px #aaa;
+}
+.form {
+  background: transparent;
+  text-align: center;
+  border-radius: 10px;
+  width: 45%;
+  height: 295px;
+  margin: 15px auto 0 auto;
+  padding: 10px 10px;
+  animation: bounce 1.5s infinite;
+}
+.wrapper {
+  width: 90%;
+  height: 50%;
+  margin: 0 auto 0 auto;
+}
+.footer {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 17px;
+  padding: 30px;
+  background: black;
+}
+.footer-left {
+  width: 265px;
+  height: 280px;
+  float: left;
+  background: transparent;
+  margin-right: 26px;
+}
+.footer-right {
+  width: 265px;
+  height: 280px;
+  float: right;
+  background: transparent;
+}
+.footer-left p,
+.footer-right p {
+  font-family: Ubuntu, serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+.footer-left a {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30px;
+  position: relative;
+  color: #aaa;
+}
+#signature {
+  line-height: 240px;
+  text-align: center;
+}
+/* animated text begin*/
+.banner-part .animated-text {
+  color: rgb(194, 182, 182);
+  position: relative;
+  transform: translate(-50%, -50%);
+  font-family: Ubuntu, serif;
+  background: transparent;
+  height: 60px;
+  overflow: hidden;
+  border: 2px solid gray;
+  border-radius: 10%;
+  margin-left: 53%;
+}
+.line {
+  text-align: center;
+  font-size: 30px;
+  line-height: 60px;
+}
+.line:first-child {
+  animation: anim 12s infinite;
+}
+@keyframes anim {
+  0% {
+    margin-top: 0;
+  }
+  7.14% {
+    margin-top: -60px;
+  }
+  14.28% {
+    margin-top: -120px;
+  }
+  21.42% {
+    margin-top: -180px;
+  }
+  28.56% {
+    margin-top: -240px;
+  }
+  35.73% {
+    margin-top: -300px;
+  }
+  42.9% {
+    margin-top: -360px;
+  }
+  50% {
+    margin-top: -420px;
+  }
+  57.18% {
+    margin-top: -360px;
+  }
+  64.32% {
+    margin-top: -300px;
+  }
+  71.46% {
+    margin-top: -240px;
+  }
+  78.60% {
+    margin-top: -180px;
+  }
+  85.74% {
+    margin-top: -120px;
+  }
+  92.88% {
+    margin-top: -60px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+/* animated text end*/
+
+@media screen and (max-width: 519px) /*456 was the default*/ {
+  .navbar-brand {
+    display: inline-block;
+    float: none;
+  }
+  .toggle-collapse {
+    display: inline-block;
+  }
+  .navbar-nav {
+    color: white;
+    padding: 0%;
+  }
+  .navbar .navbar-nav .nav-item {
+    display: block;
+    list-style: none;
+  }
+  .navbar-collapse {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    transition: all 499ms ease;
+    height: 0vh;
+  }
+  .collapse {
+    height: 100vh;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1679px) {
+  .main-container {
+    width: 90%;
+  }
+  .logo {
+    width: 27%;
+  }
+  .logo img {
+    width: 147px;
+    height: 147px;
+    margin-top: 5%;
+    float: right;
+  }
+  .head-phone-email {
+    width: 71%;
+    margin-left: 16px;
+  }
+  .navigation {
+    width: 100%;
+  }
+  .banner-part {
+    width: 100%;
+  }
+  .content-part {
+    width: 71%;
+  }
+  .get-in-touch {
+    width: 27%;
+    margin-left: 17.5px;
+  }
+  .product-gallery-box {
+    width: 24%;
+    margin-right: 11.3px;
+  }
+  .product-gallery-box1 {
+    width: 24%;
+  }
+  .product-gallery-box p {
+    font-size: 12px;
+  }
+  .product-gallery-box1 p {
+    font-size: 12px;
+  }
+  .testimonials {
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .contact {
+    width: 99%;
+    height: 292px;
+  }
+  .name {
+    width: 200px;
+  }
+  .email {
+    width: 200px;
+  }
+  .message {
+    width: 200px;
+  }
+  .submit {
+    margin-top: 120px;
+    width: 200px;
+  }
+  .entry {
+    margin: 20px auto;
+  }
+  .testimonials p {
+    font-size: 15px;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .footer-left {
+    width: 24%;
+    margin-right: 10.7px;
+  }
+  .footer-right {
+    width: 24%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1299px) {
+  .main-container {
+    width: 90%;
+  }
+  .logo {
+    width: 27%;
+    margin-top: 20px;
+  }
+  .logo img {
+    width: 147px;
+    height: 147px;
+    float: right;
+  }
+  .head-phone-email {
+    width: 71%;
+    margin-left: 16px;
+  }
+  .navigation {
+    width: 100%;
+  }
+  .banner-part {
+    width: 100%;
+  }
+  .content-part {
+    width: 71%;
+  }
+  .get-in-touch {
+    width: 27%;
+    margin-left: 17.5px;
+  }
+  .product-gallery-box {
+    width: 24%;
+    margin-right: 11.3px;
+  }
+  .product-gallery-box1 {
+    width: 24%;
+  }
+  .product-gallery-box p {
+    font-size: 12px;
+  }
+  .product-gallery-box1 p {
+    font-size: 12px;
+  }
+  .testimonials {
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .contact {
+    width: 99%;
+    height: 292px;
+  }
+  .name {
+    width: 200px;
+  }
+  .email {
+    width: 200px;
+  }
+  .message {
+    width: 200px;
+  }
+  .submit {
+    margin-top: 120px;
+    width: 200px;
+  }
+  .entry {
+    margin: 20px auto;
+  }
+  .testimonials p {
+    font-size: 15px;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .footer-left {
+    width: 24%;
+    margin-right: 10.7px;
+  }
+  .footer-right {
+    width: 24%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main-container {
+    width: 90%;
+  }
+  .logo {
+    width: 27%;
+  }
+  .logo img {
+    width: 147px;
+    height: 147px;
+    margin-top: 15%;
+    float: right;
+  }
+  .head-phone-email {
+    width: 71%;
+    margin-left: 12px;
+    margin-top: 5%;
+  }
+  .navigation {
+    width: 100%;
+  }
+  .banner-part {
+    width: 100%;
+  }
+  .content-part {
+    width: 71%;
+  }
+  .get-in-touch {
+    width: 27%;
+    margin-left: 13px;
+  }
+  .product-gallery-box {
+    width: 23%;
+    margin-right: 17.5px;
+  }
+  .product-gallery-box1 {
+    width: 23%;
+  }
+  .product-gallery-box p {
+    font-size: 12px;
+  }
+  .product-gallery-box1 p {
+    font-size: 12px;
+  }
+  .testimonials {
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .contact {
+    width: 99%;
+    height: 292px;
+  }
+  .name {
+    width: 200px;
+  }
+  .email {
+    width: 200px;
+  }
+  .message {
+    width: 200px;
+  }
+  .submit {
+    margin-top: 120px;
+    width: 200px;
+  }
+  .entry {
+    margin: 20px auto;
+  }
+  .testimonials {
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .contact {
+    width: 99%;
+    height: 292px;
+  }
+  .name {
+    width: 200px;
+  }
+  .email {
+    width: 200px;
+  }
+  .message {
+    width: 200px;
+  }
+  .submit {
+    margin-top: 120px;
+    width: 200px;
+  }
+  .entry {
+    margin: 20px auto;
+  }
+  .testimonials p {
+    font-size: 15px;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .wrapper {
+    width: 100%;
+  }
+
+  .footer-left {
+    width: 24%;
+    margin-right: 8.2px;
+  }
+  .footer-right {
+    width: 24%;
+  }
+  #footer1 {
+    height: 40px;
+  }
+  #github {
+    text-align: center;
+    width: 50%;
+  }
+  #linkedin {
+    text-align: center;
+    width: 50%;
+  }
+  #footer2 {
+    width: 34%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .main-container {
+    width: 90%;
+  }
+  .logo {
+    width: 100%;
+    float: none;
+    margin: auto;
+  }
+  .logo img {
+    width: 147px;
+    height: 147px;
+    margin-top: 2%;
+    margin-left: 35%;
+  }
+  .logo p {
+    font-size: 15px;
+  }
+  .head-phone-email {
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 10%;
+  }
+  .head-phone-email p {
+    font-size: 15px;
+  }
+  .navigation {
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .navigation p {
+    font-size: 15px;
+  }
+  .banner-part {
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .banner-part p {
+    font-size: 15px;
+  }
+  .content-part {
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 10px;
+    height: 400px;
+  }
+  .content-part p {
+    font-size: 15px;
+  }
+  .get-in-touch {
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+  .get-in-touch img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    width: 70%;
+  }
+  .get-in-touch p {
+    font-size: 15px;
+  }
+  .product-gallery-box {
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .product-gallery-box1 {
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .product-gallery-box p,
+  .product-gallery-box1 p {
+    font-size: 15px;
+  }
+  .product-gallery-box img,
+  .product-gallery-box1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-height: 215px;
+    width: 70%;
+  }
+  .testimonials {
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .contact {
+    width: 99%;
+    height: 292px;
+  }
+  .name {
+    width: 200px;
+  }
+  .email {
+    width: 200px;
+  }
+  .message {
+    width: 200px;
+  }
+  .submit {
+    margin-top: 120px;
+    width: 200px;
+  }
+  .entry {
+    margin: 20px auto;
+  }
+  .testimonials p {
+    font-size: 15px;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .footer-left {
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .footer-right {
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .footer {
+    padding: 10px;
+  }
+  #footer1 {
+    height: 40px;
+  }
+  #footer4 {
+    height: 40px;
+  }
+  #github {
+    text-align: center;
+    width: 50%;
+  }
+  #linkedin {
+    text-align: center;
+    width: 50%;
+  }
+
+  .banner-part .animated-text {
+    font-family: Ubuntu, serif;
+    background: transparent;
+    height: 60px;
+    overflow: hidden;
+    border: 2px solid gray;
+    border-radius: 10%;
+    margin-top: 20%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .main-container {
+    width: 90%;
+  }
+  .logo {
+    width: 100%;
+    float: none;
+    margin: auto;
+  }
+  .logo img {
+    width: 147px;
+    height: 147px;
+    margin-top: 3%;
+    margin-bottom: 30px;
+    float: center;
+  }
+  .logo p {
+    font-size: 15px;
+  }
+  .head-phone-email {
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 10%;
+  }
+  .head-phone-email p {
+    font-size: 15px;
+  }
+  .navigation {
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .navigation p {
+    font-size: 15px;
+  }
+  .banner-part {
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .banner-part p {
+    font-size: 15px;
+  }
+  .banner-part .animated-text {
+    font-family: Ubuntu, serif;
+    background: transparent;
+    height: 60px;
+    overflow: hidden;
+    border: 2px solid gray;
+    border-radius: 10%;
+    margin-top: 20%;
+  }
+  .content-part {
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 10px;
+    height: 600px;
+  }
+  .content-part p {
+    font-size: 15px;
+  }
+  .get-in-touch {
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .get-in-touch p {
+    font-size: 15px;
+  }
+  .product-gallery-box {
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .product-gallery-box img,
+  .product-gallery-box1 img {
+    max-height: 215px;
+  }
+  .product-gallery-box1 {
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .product-gallery-box p,
+  .product-gallery-box1 p {
+    font-size: 15px;
+  }
+  .testimonials {
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .contact {
+    width: 99%;
+    height: 292px;
+  }
+  .name {
+    width: 211px;
+  }
+  .email {
+    width: 211px;
+  }
+  .message {
+    width: 211px;
+  }
+  .submit {
+    margin-top: 115px;
+    width: 211px;
+  }
+  .testimonials p {
+    font-size: 15px;
+  }
+  .entry {
+    margin-top: 14px;
+    margin: 20px auto;
+  }
+  .form {
+    width: 100%;
+    height: 295px;
+  }
+  .footer-left {
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    margin: auto;
+  }
+  .footer-right {
+    width: 100%;
+    float: none;
+    margin: auto;
+    margin-top: 10px;
+  }
+  #footer1 {
+    height: 40px;
+  }
+  #footer4 {
+    height: 40px;
+  }
+  #github {
+    text-align: center;
+    width: 50%;
+  }
+  #linkedin {
+    text-align: center;
+    width: 50%;
+  }
+
+  .footer {
+    padding: 10px;
+  }
+}
