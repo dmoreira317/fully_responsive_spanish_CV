@@ -1,4 +1,4 @@
-## Fully responsive online CV
+## Fully responsive online CV (In spanish)
 Basic online CV, made fully responsive only using HTML, CSS and a touch of JQuery.
 
 #### Features
